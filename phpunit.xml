@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpunit
+		colors="true"
+		convertErrorsToExceptions="true"
+		convertNoticesToExceptions="true"
+		convertWarningsToExceptions="true"
+		stopOnFailure="false"
+		syntaxCheck="true"
+		backupGlobals="false"
+		>
+
+	<testsuite name="dal">
+		<directory>./tests</directory>
+	</testsuite>
+
+	<logging>
+		<!--<log type="coverage-html" target="tests/reports/coverage" charset="UTF-8" yui="true" highlight="true" lowUpperBound="35" highLowerBound="70"/>-->
+		<!--<log type="coverage-xml" target="./tests/reports/coverage/clover.xml"/>-->
+		<!--<log type="junit" target="./tests/reports/phpunit.xml" logIncompleteSkipped="false"/>-->
+	</logging>
+</phpunit>
