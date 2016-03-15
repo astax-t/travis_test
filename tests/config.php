@@ -1,9 +1,9 @@
 <?php
 
 $mysql_db = array(
-	'host' => 'mysql',
-	'username' => 'dal_test_user',
-	'password' => 'not_very_secure',
+	'host' => 'localhost',
+	'username' => 'root',
+	'password' => '',
 	'db_name' => 'dal_test',
 );
 

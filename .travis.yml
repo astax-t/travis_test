@@ -20,6 +20,7 @@ mysql:
   encoding: utf8
 
 before_script:
+  - mysql -e "create database IF NOT EXISTS dal_test;" -uroot
   - composer install --no-progress
 
 script:
